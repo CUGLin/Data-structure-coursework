@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/T2">
+        <file>resource/开始编辑.png</file>
+        <file>resource/凸包.png</file>
+        <file>resource/结束编辑.png</file>
+    </qresource>
+</RCC>

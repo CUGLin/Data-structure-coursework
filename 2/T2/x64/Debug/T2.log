@@ -1,0 +1,17 @@
+﻿   Qt/MSBuild: 3.3.1.1
+   Qt: 5.15.2
+  uic T2.ui
+  rcc T2.qrc
+  Graham.cpp
+  MouseEventHandler.cpp
+  T2.cpp
+  main.cpp
+E:\VS_Project\YL\2\T2\Graham.cpp(36,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\VS_Project\YL\2\T2\MouseEventHandler.cpp(25,43): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\VS_Project\YL\2\T2\T2.h(17,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 main.cpp)
+E:\VS_Project\YL\2\T2\T2.h(17,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 T2.cpp)
+  moc_T2.cpp
+  moc_MouseEventHandler.cpp
+E:\VS_Project\YL\2\T2\T2.h(17,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 x64\Debug\qt\moc\moc_T2.cpp)
+  qrc_T2.cpp
+  T2.vcxproj -> E:\VS_Project\YL\2\x64\Debug\T2.exe
