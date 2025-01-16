@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Question_5">
+        <file>resource/JSON.png</file>
+        <file>resource/midware1.png</file>
+        <file>resource/TXT.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+﻿   Qt/MSBuild: 3.3.1.1
+   Qt: 5.15.2
+  IDW.cpp
+  Question_5.cpp
+  main.cpp
+  qrc_Question_5.cpp
+  moc_Question_5.cpp
+  Question_5.vcxproj -> E:\VS_Project\YL\5\Question_5\x64\Debug\Question_5.exe

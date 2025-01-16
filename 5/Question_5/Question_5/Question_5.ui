@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Question_5Class</class>
+ <widget class="QMainWindow" name="Question_5Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1077</width>
+    <height>645</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Question_5</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1077</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>导入数据</string>
+    </property>
+    <addaction name="actionTxt"/>
+    <addaction name="actionGeojson"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>高程插值</string>
+    </property>
+    <addaction name="actionIDW"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionTxt"/>
+   <addaction name="actionGeojson"/>
+   <addaction name="actionIDW"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionTxt">
+   <property name="icon">
+    <iconset resource="Question_5.qrc">
+     <normaloff>:/Question_5/resource/TXT.png</normaloff>:/Question_5/resource/TXT.png</iconset>
+   </property>
+   <property name="text">
+    <string>Txt</string>
+   </property>
+  </action>
+  <action name="actionGeojson">
+   <property name="icon">
+    <iconset resource="Question_5.qrc">
+     <normaloff>:/Question_5/resource/JSON.png</normaloff>:/Question_5/resource/JSON.png</iconset>
+   </property>
+   <property name="text">
+    <string>Geojson</string>
+   </property>
+  </action>
+  <action name="actionIDW">
+   <property name="icon">
+    <iconset resource="Question_5.qrc">
+     <normaloff>:/Question_5/resource/midware1.png</normaloff>:/Question_5/resource/midware1.png</iconset>
+   </property>
+   <property name="text">
+    <string>IDW</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Question_5.qrc"/>
+ </resources>
+ <connections/>
+</ui>
