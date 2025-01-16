@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DecisionTree">
+    <Position X="2.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAAAAAAIQCAAACwAAACAIAEAAQAAAAACAAAAAA=</HashCode>
+      <FileName>Decisiontree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Question_3">
+    <Position X="5.25" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAEAAACAAAAIAAAAAAAAAAAAQAEAAAAAQ=</HashCode>
+      <FileName>Question_3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Sample">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAABAAAAAAAAQAAQAABAA=</HashCode>
+      <FileName>Decisiontree.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TreeNode">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Decisiontree.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="AlgorithmType">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Decisiontree.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

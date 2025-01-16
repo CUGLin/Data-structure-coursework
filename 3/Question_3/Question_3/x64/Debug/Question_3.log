@@ -1,0 +1,11 @@
+﻿   Qt/MSBuild: 3.3.1.1
+   Qt: 5.15.2
+  DecisionTree.cpp
+  Question_3.cpp
+  main.cpp
+E:\VS_Project\YL\3\Question_3\Question_3\DecisionTree.cpp(28,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\VS_Project\YL\3\Question_3\Question_3\DecisionTree.cpp(58,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\VS_Project\YL\3\Question_3\Question_3\DecisionTree.cpp(72,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  qrc_Question_3.cpp
+  moc_Question_3.cpp
+  Question_3.vcxproj -> E:\VS_Project\YL\3\Question_3\x64\Debug\Question_3.exe
