@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/CampusNavigation">
+        <file>resource/open 打开文件.png</file>
+        <file>resource/保存.png</file>
+        <file>resource/点.png</file>
+        <file>resource/放大.png</file>
+        <file>resource/缩小.png</file>
+        <file>resource/线.png</file>
+        <file>resource/区域-区域的最短路径.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CampusNavigationClass</class>
+ <widget class="QMainWindow" name="CampusNavigationClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CampusNavigation</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 10pt &quot;Times New Roman&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1120</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionOpenFile"/>
+    <addaction name="actionSaveFile"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>顶点</string>
+    </property>
+    <addaction name="actionAddVertex"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>边</string>
+    </property>
+    <addaction name="actionAddEdge"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <addaction name="actionCalculatePaths"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOpenFile"/>
+   <addaction name="actionSaveFile"/>
+   <addaction name="actionAddVertex"/>
+   <addaction name="actionAddEdge"/>
+   <addaction name="actionCalculatePaths"/>
+   <addaction name="actionZoomIn"/>
+   <addaction name="actionZoomOut"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpenFile">
+   <property name="icon">
+    <iconset resource="CampusNavigation.qrc">
+     <normaloff>:/CampusNavigation/resource/open 打开文件.png</normaloff>:/CampusNavigation/resource/open 打开文件.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+   <property name="toolTip">
+    <string>打开json路径文件</string>
+   </property>
+  </action>
+  <action name="actionAddVertex">
+   <property name="icon">
+    <iconset resource="CampusNavigation.qrc">
+     <normaloff>:/CampusNavigation/resource/点.png</normaloff>:/CampusNavigation/resource/点.png</iconset>
+   </property>
+   <property name="text">
+    <string>添加顶点</string>
+   </property>
+  </action>
+  <action name="actionAddEdge">
+   <property name="icon">
+    <iconset resource="CampusNavigation.qrc">
+     <normaloff>:/CampusNavigation/resource/线.png</normaloff>:/CampusNavigation/resource/线.png</iconset>
+   </property>
+   <property name="text">
+    <string>添加边</string>
+   </property>
+  </action>
+  <action name="actionZoomIn">
+   <property name="icon">
+    <iconset resource="CampusNavigation.qrc">
+     <normaloff>:/CampusNavigation/resource/放大.png</normaloff>:/CampusNavigation/resource/放大.png</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="actionZoomOut">
+   <property name="icon">
+    <iconset resource="CampusNavigation.qrc">
+     <normaloff>:/CampusNavigation/resource/缩小.png</normaloff>:/CampusNavigation/resource/缩小.png</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="actionCalculatePaths">
+   <property name="icon">
+    <iconset resource="CampusNavigation.qrc">
+     <normaloff>:/CampusNavigation/resource/区域-区域的最短路径.png</normaloff>:/CampusNavigation/resource/区域-区域的最短路径.png</iconset>
+   </property>
+   <property name="text">
+    <string>求解最短路径</string>
+   </property>
+  </action>
+  <action name="actionSaveFile">
+   <property name="icon">
+    <iconset resource="CampusNavigation.qrc">
+     <normaloff>:/CampusNavigation/resource/保存.png</normaloff>:/CampusNavigation/resource/保存.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存文件</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="CampusNavigation.qrc"/>
+ </resources>
+ <connections/>
+</ui>

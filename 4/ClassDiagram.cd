@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CampusNavigationThread">
+    <Position X="6" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAIAAAAAEAAAAAAAIAAAAAAEAAAAAACA=</HashCode>
+      <FileName>CampusNavigationThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CampusNavigationView">
+    <Position X="12" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>CampusNavigation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CampusNavigation">
+    <Position X="8.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACAACAQCSEAAEQwgARhAKAAAAEAQAADAAAAAEBAAAgA=</HashCode>
+      <FileName>CampusNavigation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddVertexDialog">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAACAAAAAAAAAQAAAAAAAIAEAAAAAgA=</HashCode>
+      <FileName>AddVertexDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="VertexData">
+    <Position X="3.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAFAAAAAABoAAABQAA=</HashCode>
+      <FileName>AllStruct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DjikstraPathsAndCost">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>AllStruct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="VertexType">
+    <Position X="12" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>AllStruct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="State">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAACAAAAAAAAAAAACAAAAAAAAEAAAA=</HashCode>
+      <FileName>AllStruct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
