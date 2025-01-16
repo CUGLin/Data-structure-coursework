@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Question_1">
+    <Position X="7" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABAAACEAEAAAAAAIAAQAAAAAAAAAAAQAAAAAg=</HashCode>
+      <FileName>Question_1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessBoardScene">
+    <Position X="4.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIABABAAAAAAQBAxAAAAAAQDAAAAAAAACAABAAAA=</HashCode>
+      <FileName>ChessBoardScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

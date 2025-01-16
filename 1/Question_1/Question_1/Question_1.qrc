@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Question_1">
+        <file>Res/Chessboard_Coloring.png</file>
+    </qresource>
+</RCC>
